@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+
+if [ ! -f /recordings/hdhomerun.conf ]; then
+  echo "RecordPath=/recordings" > /recordings/hdhomerun.conf
+fi 
+
+exit 0

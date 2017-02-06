@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+
+/root/hdhomerun_record_linux foreground --conf /recordings/hdhomerun.conf
+
